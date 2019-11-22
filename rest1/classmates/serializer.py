@@ -5,6 +5,4 @@ class ClassmateSerializer(serializers.ModelSerializer):
     class Meta:
 
         model = Classmate
-        field = '__all__'
-
-        
+        fields = '__all__'

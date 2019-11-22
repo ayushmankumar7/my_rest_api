@@ -15,8 +15,11 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path, include
+from django.conf.urls import url 
+from classmates import views
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path("", include('classmates.urls'))
+    
+    url(r'^classmates/', views.ClassmateList.as_view())
 ]

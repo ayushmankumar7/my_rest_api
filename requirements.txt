@@ -192,7 +192,7 @@ system-service==0.3
 systemd-python==234
 tb-nightly==1.14.0a20190603
 tensorboard==1.13.1
-tensorflow==2.0.0b1
+tensorflow==2.5.3
 tensorflow-datasets==1.2.0
 tensorflow-estimator==1.13.0
 tensorflow-metadata==0.14.0
